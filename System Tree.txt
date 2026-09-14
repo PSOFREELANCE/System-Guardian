@@ -1,0 +1,77 @@
+E:\SYSTEM-GUARDIAN
+│
+├── src/                              # React Frontend
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── styles.css
+│   ├── components/
+│   │   ├── Dashboard.tsx
+│   │   ├── HealthScore.tsx
+│   │   ├── ProcessList.tsx
+│   │   ├── SystemInfo.tsx
+│   │   ├── DriverPanel.tsx
+│   │   ├── RepairPanel.tsx
+│   │   ├── ActivityLog.tsx
+│   │   ├── StatusCard.tsx
+│   │   ├── Sidebar.tsx
+│   │   ├── TitleBar.tsx
+│   │   └── ui/
+│   │       ├── button.tsx
+│   │       ├── card.tsx
+│   │       ├── dialog.tsx
+│   │       ├── progress.tsx
+│   │       ├── scroll-area.tsx
+│   │       └── tooltip.tsx
+│   ├── lib/
+│   │   ├── ipc.ts
+│   │   ├── types.ts
+│   │   └── utils.ts
+│   └── hooks/
+│       ├── useSystemHealth.ts
+│       └── useActivityLog.ts
+│
+├── src-tauri/
+│   ├── Cargo.toml
+│   ├── build.rs
+│   ├── tauri.conf.json
+│   ├── capabilities/
+│   │   └── default.json
+│   ├── icons/
+│   └── src/
+│       ├── lib.rs
+│       ├── main.rs
+│       └── commands/
+│           ├── mod.rs
+│           ├── health.rs
+│           ├── drivers.rs
+│           ├── repair.rs
+│           ├── system.rs
+│           └── security.rs
+│
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml
+│   │   └── release.yml
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.yml
+│   │   ├── feature_request.yml
+│   │   └── config.yml
+│   ├── dependabot.yml
+│   └── PULL_REQUEST_TEMPLATE.md
+│
+├── .editorconfig
+├── .gitattributes
+├── .gitignore
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── SECURITY.md
+├── index.html
+├── package.json
+├── postcss.config.js          ← ✅ ROOT (new)
+├── tailwind.config.js         ← ✅ ROOT (new)
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts

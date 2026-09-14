@@ -1,0 +1,20 @@
+name: 🐛 Bug report
+description: Report a bug in System Guardian
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes: { label: Version }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What happened? }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected behavior }
+    validations: { required: true }
+  - type: input
+    id: os
+    attributes: { label: Windows version }
+    validations: { required: true }
