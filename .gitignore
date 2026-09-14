@@ -9,3 +9,13 @@ src-tauri/gen
 !.vscode/extensions.json
 .idea
 *.log
+# Secrets â€” DO NOT COMMIT
+github token.txt
+*.token
+*.secret
+.env
+.env.*
+# Secrets — DO NOT COMMIT
+github token.txt
+*.token
+*.secret

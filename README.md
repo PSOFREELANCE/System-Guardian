@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="docs/social-preview-System-Guardian.png" alt="System Guardian" width="800"/>
+</div>
+
+<div align="center">
 
 # 🛡️ System Guardian
 
