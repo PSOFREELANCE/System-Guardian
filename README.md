@@ -4,15 +4,44 @@
 
 <div align="center">
 
+
+<div align="center">
+
 # 🛡️ System Guardian
 
 **A beautiful, blazing-fast Windows health, repair & security suite.**
 
+**Only 2 MB · 100% local · MIT licensed**
 Built with **Tauri 2 · Rust · React · TypeScript · Tailwind**
 
+[![Download](https://img.shields.io/badge/Download-v1.0.0-22d3ee?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/PSOFREELANCE/System-Guardian/releases/latest)
 [![CI](https://github.com/PSOFREELANCE/System-Guardian/actions/workflows/ci.yml/badge.svg)](https://github.com/PSOFREELANCE/System-Guardian/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%208.1%20%7C%2010%20%7C%2011-blue)](#)
+[![Platform](https://img.shields.io/badge/Platform-Windows%208.1%20%7C%2010%20%7C%2011-blue)]()
+
+</div>
+
+## 📸 Screenshots
+
+<div align="center">
+
+### Dashboard
+<img src="docs/screenshots/dashboard.png" alt="Dashboard" width="800"/>
+
+### Process Monitor
+<img src="docs/screenshots/processes.png" alt="Process Monitor" width="800"/>
+
+### Repair Center
+<img src="docs/screenshots/repair.png" alt="Repair Center" width="800"/>
+
+### System Audit
+<img src="docs/screenshots/system.png" alt="System Audit" width="800"/>
+
+### Drivers Center
+<img src="docs/screenshots/drivers.png" alt="Drivers Center" width="800"/>
+
+### Activity
+<img src="docs/screenshots/activity.png" alt="Drivers Center" width="800"/>
 
 </div>
 
